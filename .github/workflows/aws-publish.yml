@@ -1,0 +1,15 @@
+- name: Deploy AWS Lambda function
+  # You may pin to the exact commit or the version.
+  # uses: yvesgurcan/deploy-lambda-function@1fc74179f8ac3a43e7e6b0f7c643b6f5f0bca43f
+  uses: yvesgurcan/deploy-lambda-function@v0.0.5
+  with:
+    # Zip package of Lambda and dependencies
+    package: # optional, default is 
+    # Name of Lambda function
+    function-name: # optional, default is 
+    # AWS secret key
+    AWS_SECRET_KEY: # optional, default is 
+    # AWS secret key ID
+    AWS_SECRET_ID: # optional, default is 
+    # AWS region of the Lambda
+    AWS_REGION: # optional, default is 
